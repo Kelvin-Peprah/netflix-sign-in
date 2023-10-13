@@ -1,17 +1,20 @@
 * {
   font-family: arial;
-  margin: 0;
 }
 
 .element {
   background-image: url(intro-import.jpg);
   background-repeat: repeat;
+  margin: 0;
 }
 
-h1 {
+.header-container{
+  margin: 30px;
+}
+.header {
   color: #e50914;
-  height: 4px;
-  width: 1px;
+  height: 40px;
+  width: 10px;
   vertical-align: middle;
   
 }
@@ -22,11 +25,10 @@ h1 {
 
 #container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   justify-content: center;
-  width: 244px;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 50px;
+  padding: 60px 68px 40px 68px;
   border-radius: 5px;
 }
 
@@ -43,21 +45,21 @@ h1 {
   margin-bottom: 30px;
 }
 #email, #password {
-  background-color: rgb(133, 127, 127);
-  color: aliceblue;
+  background-color: rgb(63, 62, 62);
+  color: rgb(155, 158, 163);
   border: none;
-  padding: 12px;
-  width: 220px;
+  padding: 15px;
+  width: 314px;
   border-radius: 5px;
   font-size: 14px;
 }
 
 #email::placeholder {
-  color: rgb(213, 215, 218);
+  color: rgb(155, 158, 163);
 }
 
 #password::placeholder {
-  color: rgb(213, 215, 218);
+  color: rgb(155, 158, 163);
 }
 
 #container-3 {
@@ -70,14 +72,16 @@ h1 {
 #submit {
   background-color: #e50914;
   color: aliceblue;
+  font-size: 18px;
   border: none;
-  padding: 12px;
-  width: 243px;
+  padding: 15px;
+  width: 340px;
   border-radius: 5px;
 }
 
 .check-mark {
   display: flex;
+  width: 340px;
   justify-content: space-between;
 }
 
@@ -89,8 +93,13 @@ h1 {
 .check::after {
   background-color: black;
 }
+
 .remember {
   color: rgb(173, 175, 177);
+}
+.protection {
+  color: rgb(173, 175, 177);
+  width: 340px;
 }
 
 strong {
@@ -99,4 +108,27 @@ strong {
 
 span {
   color: rgb(62, 62, 252);
+  text-decoration-style: solid;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 200px;
+  margin-top: 400px;
+}
+
+li, .ques {
+  list-style-type: none;
+  color: rgb(173, 175, 177);
+  text-align: start;
+}
+
+.footer-container {
+  display: flex;
+  flex-flow: row;
 }
