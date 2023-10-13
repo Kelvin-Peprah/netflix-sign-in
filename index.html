@@ -6,31 +6,41 @@
     <meta name="description" content="Netflix login">
     <meta name="robots" content="index, follow">
     <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>NETFLIX</h1>
-    <div id="container">
-      <div>
-        <p>Sign In</p>
-      </div>
-      <div>
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
-      </div>
-      <div>
-        <input type="submit" value="Sign In">
-        <input type="checkbox">
-        <p>Remember me</p>
-        <p>Need help?</p>
-      </div>
-      <div>
-        <p>
-          New to Neflix? <strong>Sign up now</strong>
-        </p>
-  
-        <p>
-          This page is protected by Google reCAPTCHA to ensure you're not a bot. <span>learn more.</span>
-        </p>
+    <div id="section-container">
+      <div id="container">
+        <div>
+          <p class="signin">Sign In</p>
+        </div>
+        <div class="container-2">
+          <input id="email" type="text" placeholder="Email or phone number">
+          <input id="password" type="password" placeholder="Password">
+        </div>
+        <div id="container-3">
+          <div>
+            <input id="submit" type="submit" value="Sign In">
+          </div>
+          <div class="check-mark">
+            <div class="check-box">
+              <input id="check" type="checkbox">
+              <p class="remember">Remember me</p>
+            </div>
+            <div>
+              <p class="remember">Need help?</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="remember">
+            New to Neflix? <strong>Sign up now</strong>
+          </p>
+          <p class="remember">
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. <span>learn more.</span>
+          </p>
+        </div>
       </div>
     </div>
   </body>

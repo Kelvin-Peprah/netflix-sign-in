@@ -1,0 +1,96 @@
+body {
+  background-image: url(intro-import.jpg);
+  background-repeat: repeat;
+}
+* {
+  font-family: arial;
+}
+h1 {
+  color: red;
+  
+}
+#section-container {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 244px;
+  background-color: rgb(82, 156, 240);
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.signin {
+  font-family: arial;
+  font-size: 30px;
+  color: white;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+#email, #password {
+  background-color: rgb(133, 127, 127);
+  color: aliceblue;
+  border: none;
+  padding: 12px;
+  width: 220px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#email::placeholder {
+  color: rgb(213, 215, 218);
+}
+
+#password::placeholder {
+  color: rgb(213, 215, 218);
+}
+
+#container-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#submit {
+  background-color: rgb(202, 17, 17);
+  color: aliceblue;
+  border: none;
+  padding: 12px;
+  width: 243px;
+  border-radius: 5px;
+}
+
+.check-mark {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.check {
+  background-color: black;
+}
+.remember {
+  color: rgb(221, 227, 233);
+}
+
+strong {
+  color: white;
+}
+
+span {
+  color: rgb(62, 62, 252);
+}
