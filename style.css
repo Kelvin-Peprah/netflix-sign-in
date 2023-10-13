@@ -1,12 +1,18 @@
-body {
+* {
+  font-family: arial;
+  margin: 0;
+}
+
+.element {
   background-image: url(intro-import.jpg);
   background-repeat: repeat;
 }
-* {
-  font-family: arial;
-}
+
 h1 {
-  color: red;
+  color: #e50914;
+  height: 4px;
+  width: 1px;
+  vertical-align: middle;
   
 }
 #section-container {
@@ -19,7 +25,7 @@ h1 {
   flex-flow: column wrap;
   justify-content: center;
   width: 244px;
-  background-color: rgb(82, 156, 240);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 50px;
   border-radius: 5px;
 }
@@ -62,7 +68,7 @@ h1 {
 }
 
 #submit {
-  background-color: rgb(202, 17, 17);
+  background-color: #e50914;
   color: aliceblue;
   border: none;
   padding: 12px;
@@ -80,11 +86,11 @@ h1 {
   justify-content: space-evenly;
 }
 
-.check {
+.check::after {
   background-color: black;
 }
 .remember {
-  color: rgb(221, 227, 233);
+  color: rgb(173, 175, 177);
 }
 
 strong {
