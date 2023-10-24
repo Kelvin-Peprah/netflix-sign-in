@@ -2,10 +2,12 @@
   font-family: arial;
 }
 
-.element {
+body {
   background-image: url(intro-import.jpg);
-  background-repeat: repeat;
-  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .header-container{
@@ -60,6 +62,10 @@
 
 #password::placeholder {
   color: rgb(155, 158, 163);
+}
+
+#email:active {
+  border: none;
 }
 
 #container-3 {
